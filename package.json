@@ -1,0 +1,25 @@
+{
+  "name": "node-footix",
+  "version": "1.0.0",
+  "description": "soccer schedule of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "football",
+    "soccer",
+    "schedule",
+    "fixtures",
+    "matches"
+  ],
+  "author": "Walid Saad",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cheerio": "^0.19.0",
+    "cli-table2": "^0.1.9",
+    "commander": "^2.9.0",
+    "request-promise": "^1.0.2"
+  }
+}
