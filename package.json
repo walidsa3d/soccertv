@@ -22,7 +22,7 @@
     "url": "https://github.com/walidsa3d/node-footix/issues"
     },
   "bin": {
-      "node-footix": "bin/cli"
+      "soccertv": "bin/cli"
      },
   "engines": {
       "node": ">= 0.8.0"
