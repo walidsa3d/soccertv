@@ -1,7 +1,8 @@
 {
-  "name": "node-footix",
+  "name": "soccertv",
   "version": "1.0.0",
   "description": "soccer schedule of the day",
+  "homepage": "https://github.com/walidsa3d/node-footix",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,19 @@
     "fixtures",
     "matches"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walidsa3d/node-footix.git"
+   },
+  "bugs": {
+    "url": "https://github.com/walidsa3d/node-footix/issues"
+    },
+  "bin": {
+      "node-footix": "bin/cli"
+     },
+  "engines": {
+      "node": ">= 0.8.0"
+     },
   "author": "Walid Saad",
   "license": "MIT",
   "dependencies": {
@@ -21,5 +35,6 @@
     "cli-table2": "^0.1.9",
     "commander": "^2.9.0",
     "request-promise": "^1.0.2"
-  }
+  },
+  "devDependencies": {}
 }

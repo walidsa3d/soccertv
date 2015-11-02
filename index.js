@@ -2,7 +2,7 @@
  * @Author: walid
  * @Date:   2015-10-31 12:34:02
  * @Last Modified by:   walid
- * @Last Modified time: 2015-11-01 12:37:11
+ * @Last Modified time: 2015-11-01 16:13:59
  */
 
 var request = require('request-promise');
@@ -27,7 +27,7 @@ var options = {
 request(options)
     .then(function($) {
         var table = new Table({
-            head: ['Time', 'Channels', 'Competition', 'Home', 'Away']
+            head: ['Time', 'Home', 'Away', 'Competition', 'Channels']
         });
         $('.match').each(function(index, div) {
             if ($(div).find(".home").text() && $(div).find(".away").text()) {
@@ -45,9 +45,7 @@ request(options)
                 });
                 if (nstations.length > 0)
 
-                    table.push([chalk.bgYellow.red(time), nstations.join(' '),
-                    chalk.green.bold(competition), chalk.cyan(home), chalk.red(away)
-                ]);
+                    table.push([chalk.bgYellow.red(time), chalk.cyan(home), chalk.red(away), chalk.green.bold(competition), nstations.join(' ')]);
             }
         });
         console.log(table.toString());
