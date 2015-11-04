@@ -5,6 +5,9 @@ Your Soccer TV Schedule
 ```
 $ [sudo] npm install -g soccertv
 ```
+#Demo
+
+![demo](https://github.com/walidsa3d/soccertv/blob/master/soccertv.gif)
 
 #License
 ```
