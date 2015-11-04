@@ -1,8 +1,8 @@
 {
   "name": "soccertv",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "soccer schedule of the day",
-  "homepage": "https://github.com/walidsa3d/node-footix",
+  "homepage": "https://github.com/walidsa3d/soccertv",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/walidsa3d/node-footix.git"
+    "url": "https://github.com/walidsa3d/soccertv.git"
    },
   "bugs": {
-    "url": "https://github.com/walidsa3d/node-footix/issues"
+    "url": "https://github.com/walidsa3d/soccertv/issues"
     },
   "bin": {
       "soccertv": "bin/cli"
