@@ -8,7 +8,7 @@
 var request = require('request-promise');
 var cheerio = require('cheerio');
 var chalk = require('chalk');
-var Table = require('cli-table2');
+var Table = require('cli-table3');
 var program = require('commander');
 
 var url = 'http://www.getyourfixtures.com/all/fixtures/today/football';
